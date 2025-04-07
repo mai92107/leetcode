@@ -10,7 +10,7 @@ package main
 	head := &ListNode{}
 	cur := head
 
-	for list1!=nil||list2!=nil{
+	for list1!=nil&&list2!=nil{
 	
 		// 比大小 ， 要的值 插入並取下一個
 		if list1.Val < list2.Val {
